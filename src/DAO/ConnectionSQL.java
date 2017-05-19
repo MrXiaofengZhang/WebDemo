@@ -103,6 +103,7 @@ public class ConnectionSQL {
             return false;
         }
         catch (Exception e){
+            System.out.println(e.toString());
             return false;
         }
         finally {

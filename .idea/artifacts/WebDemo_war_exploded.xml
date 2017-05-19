@@ -6,6 +6,12 @@
         <element id="directory" name="classes">
           <element id="module-output" name="WebDemo" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/mysql-connector-java-5.1.39-bin.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/JetbrainsCrack.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jackson-all-1.9.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/gson-2.2.4.jar" />
+        </element>
       </element>
       <element id="javaee-facet-resources" facet="WebDemo/web/Web" />
     </root>
